@@ -46,7 +46,7 @@ header nav a:hover{
   font-size: 20px;
   height: 800px;
 
-  background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(https://raw.githubusercontent.com/BranTheOliver/recriando_interface_netflix/main/img/capa-a-viagem-de-chihiro.jpg);
+  background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('https://www.themoviedb.org/t/p/original/mSDsSDwaP3E7dEfUPWy4J0djt4O.jpg');
   background-size: cover;
 
   display: flex;
