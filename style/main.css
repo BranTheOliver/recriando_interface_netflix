@@ -1,6 +1,7 @@
 :root{
   --vermelho:#E50914;
   --preto:#141414;
+  --branco:#FFF;
 }
 
 *{
@@ -12,8 +13,10 @@
 body{
   background: var(--preto);
   font-family: 'Times New Roman', Times, serif;
+  color: var(--branco)
 }
 
+/*Header e Navbar*/
 header .container{
   display: flex;
   flex-direction: row;
@@ -36,4 +39,26 @@ header nav a{
 
 header nav a:hover{
   color:#FFF;
+}
+
+/*Filme Principal*/
+.filme-principal{
+  font-size: 20px;
+  height: 800px;
+
+  background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/capa-a-viagem-de-chihiro.jpg);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao{
+  margin-bottom: 40px;
+}
+
+.titulo{
+  font-size: 50px;
 }
